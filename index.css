@@ -1,0 +1,176 @@
+body{
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-size: 21px;
+    background-image: url(fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: #ffffff;
+    animation-duration: 4s;
+    animation-name: slidein2;
+}
+
+h2{
+    font-size: 24px;
+}
+
+h3{
+    font-size: 24px; text-align: left;
+    color: #ff1a0a;
+    font-family: Arial;
+
+}
+
+.banerimage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+}
+
+.banerimage img{
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.473) 2px 4px 6px 2px;
+    border: #ff1a0a solid 2px;
+    max-width: 250px;
+   
+}
+
+.product-btn {
+    background-color: #ff1a0a; /* rojo */
+    color: white; /* texto en blanco */
+    padding: 2px 6px; /* espacio interno */
+    border: solid white 2px; /* borde */
+    margin: 4px;
+    cursor: pointer; /* cursor en forma de mano */
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.473) 2px 4px 6px 2px;
+    width: 70%;
+    max-width: 600px;
+    animation-duration: 4s;
+    animation-name: slidein2;
+
+}
+
+.fotodelproducto img{
+    border: #ff1a0a solid 2px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.473) 2px 4px 6px 2px;
+
+}
+
+
+.product {
+    background-color: #fcf9f988; /* color de fondo claro */
+    padding: 1px; /* espacio interno */
+    border: 2px solid rgb(247, 3, 3); /* borde sólido */
+    display: flex; /* elementos alineados horizontalmente */
+    flex-wrap: wrap; /* elementos se ajustan a la pantalla */
+    align-items: center; /* elementos alineados en el centro */
+    box-shadow: rgba(0, 0, 0, 0.473) 2px 4px 6px 2px;
+    border-radius: 20px;
+    margin-left: 15px;
+   
+}
+
+.product li{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid red;
+    padding: 10px;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    margin-top: 8px;
+    width: 90%;
+    list-style: none;
+    box-shadow: rgba(0, 0, 0, 0.473) 2px 4px 6px 2px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+li{
+    list-style: none;
+    
+}
+.product p{
+width: 100%;
+font-size: 19px;
+text-align: left;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.product img {
+    width: 150px; /* Ancho de la imagen */
+    height: 150px; /* Altura de la imagen */
+    margin: 1px; /* Espacio entre las imagenes */
+}
+.fotodelproducto{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+}
+
+strong{
+    font-size: 26px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+    border: #ff1a0a solid 2px;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.473) 2px 4px 6px 2px;
+}
+
+section{text-align: center;
+   
+}
+
+.whatsapp{
+    background-image: url(whatsapp.png);
+    background-size: cover;background-position: center;
+    position: fixed;
+    bottom: 80px;
+    right: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    padding: 1.5rem;
+}
+
+.banerimage{animation-duration: 5s;
+    animation-name: slidein;}
+
+@keyframes slidein {
+    from {
+      margin-left: -750%;
+      
+    }
+  
+    to {
+      margin-left: 0%;
+    
+    }
+  }
+
+  @keyframes slidein2 {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    
+    }
+  }
+  
